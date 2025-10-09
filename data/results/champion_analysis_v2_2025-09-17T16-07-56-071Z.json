@@ -1,0 +1,90 @@
+{
+  "champion": {
+    "id": "1148980848",
+    "title": "Инвестиции и трейдинг с Валентиной Савенковой",
+    "username": "savenkovainvest",
+    "participantsCount": 2754,
+    "description": "",
+    "type": "channel",
+    "category": "бизнес",
+    "foundBy": "VAL трейдинг",
+    "timestamp": "2025-09-17T16:04:59.403Z",
+    "metrics": {
+      "subscribersCount": 2754,
+      "type": "channel",
+      "hasUsername": true,
+      "avgPostsPerDay": 0.10482641385706773,
+      "avgViewsPerPost": 3399,
+      "avgReactionsPerPost": 52,
+      "lastPostDate": "2025-07-31T15:16:06.000Z",
+      "postsAnalyzed": 50,
+      "avgPostLength": 543,
+      "mediaPercentage": 72,
+      "forwardPercentage": 42,
+      "collectedAt": "2025-09-17T16:05:07.866Z"
+    },
+    "aiAnalysis": {
+      "qualityScore": 6.7,
+      "verdict": "образовательный/новости",
+      "categories": [
+        "инвестиции",
+        "трейдинг",
+        "фондовый рынок",
+        "экономика",
+        "обучение"
+      ],
+      "commercialIndex": 5,
+      "educationalValue": 7,
+      "contentType": "смешанный",
+      "targetAudience": "русскоязычные розничные инвесторы и трейдеры, интересующиеся финансовыми рынками и аналитикой",
+      "warnings": [
+        "Низкая частота публикаций (≈1 пост в 10 дней)",
+        "Высокий процент пересылок – часть контента может быть репостом",
+        "Периодическая рекламная/промо‑привязка к академии и платным мероприятиям"
+      ],
+      "recommendation": "Подписаться, если вам интересен аналитический контент по российским рынкам и вы готовы к редким, но информативным постам; иначе – можно следить без подписки."
+    },
+    "analyzedAt": "2025-09-17T16:05:16.325Z",
+    "foundByKeywords": [
+      "VAL трейдинг"
+    ],
+    "totalScore": 0,
+    "relevanceScore": 16.7
+  },
+  "deepMetrics": {
+    "subscribersCount": 2754,
+    "type": "channel",
+    "hasUsername": true,
+    "avgPostsPerDay": 0.10482641385706773,
+    "avgViewsPerPost": 3399,
+    "avgReactionsPerPost": 52,
+    "lastPostDate": "2025-07-31T15:16:06.000Z",
+    "postsAnalyzed": 50,
+    "avgPostLength": 543,
+    "mediaPercentage": 72,
+    "forwardPercentage": 42,
+    "collectedAt": "2025-09-17T16:05:07.866Z"
+  },
+  "analysis": {
+    "qualityScore": 6.7,
+    "verdict": "образовательный/новости",
+    "categories": [
+      "инвестиции",
+      "трейдинг",
+      "фондовый рынок",
+      "экономика",
+      "обучение"
+    ],
+    "commercialIndex": 5,
+    "educationalValue": 7,
+    "contentType": "смешанный",
+    "targetAudience": "русскоязычные розничные инвесторы и трейдеры, интересующиеся финансовыми рынками и аналитикой",
+    "warnings": [
+      "Низкая частота публикаций (≈1 пост в 10 дней)",
+      "Высокий процент пересылок – часть контента может быть репостом",
+      "Периодическая рекламная/промо‑привязка к академии и платным мероприятиям"
+    ],
+    "recommendation": "Подписаться, если вам интересен аналитический контент по российским рынкам и вы готовы к редким, но информативным постам; иначе – можно следить без подписки."
+  },
+  "relevanceScore": 16.7
+}

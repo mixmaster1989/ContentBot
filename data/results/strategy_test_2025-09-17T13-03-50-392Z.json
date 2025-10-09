@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1534952466",
+    "title": "Торговые стратегии",
+    "username": "strategies_trading",
+    "participantsCount": 1839,
+    "description": "",
+    "type": "channel",
+    "category": "общее",
+    "foundBy": "торговые стратегии",
+    "timestamp": "2025-09-17T13:03:21.866Z",
+    "metrics": {
+      "subscribersCount": 1839,
+      "type": "channel",
+      "hasUsername": true,
+      "avgPostsPerDay": 0.2859367117975829,
+      "avgViewsPerPost": 1303,
+      "avgReactionsPerPost": 24,
+      "lastPostDate": "2025-09-16T17:45:10.000Z",
+      "postsAnalyzed": 50,
+      "avgPostLength": 935,
+      "mediaPercentage": 100,
+      "forwardPercentage": 0,
+      "collectedAt": "2025-09-17T13:03:40.033Z"
+    },
+    "aiAnalysis": {
+      "qualityScore": 7.2,
+      "verdict": "образовательный",
+      "categories": [
+        "технический анализ",
+        "фундаментальный анализ",
+        "индикаторы",
+        "торговая психология",
+        "обзор рынка"
+      ],
+      "commercialIndex": 2.5,
+      "educationalValue": 8,
+      "contentType": "оригинальный",
+      "targetAudience": "трейдеры Forex и начинающие инвесторы, интересующиеся техническим и фундаментальным анализом",
+      "warnings": [
+        "Контент не является финансовой рекомендацией и не гарантирует прибыль",
+        "Риск потери капитала при самостоятельной торговле"
+      ],
+      "recommendation": "Подписаться, если вас интересует обучение торговле на Forex и вы готовы самостоятельно проверять полученную информацию"
+    },
+    "analyzedAt": "2025-09-17T13:03:48.891Z"
+  },
+  {
+    "id": "2097558872",
+    "title": "Pocket Option | Торговые стратегии",
+    "username": "pocketoption_strategy",
+    "participantsCount": 7525,
+    "description": "",
+    "type": "channel",
+    "category": "общее",
+    "foundBy": "торговые стратегии",
+    "timestamp": "2025-09-17T13:03:21.866Z",
+    "metrics": {
+      "subscribersCount": 7525,
+      "type": "channel",
+      "hasUsername": true,
+      "avgPostsPerDay": 0.06264064778171005,
+      "avgViewsPerPost": 710,
+      "avgReactionsPerPost": 0,
+      "lastPostDate": "2025-09-17T11:51:47.000Z",
+      "postsAnalyzed": 37,
+      "avgPostLength": 351,
+      "mediaPercentage": 100,
+      "forwardPercentage": 38,
+      "collectedAt": "2025-09-17T13:03:31.866Z"
+    },
+    "aiAnalysis": {
+      "qualityScore": 3,
+      "verdict": "реклама/спам",
+      "categories": [
+        "торговые стратегии",
+        "партнёрские ссылки",
+        "конкурсы",
+        "промо‑акции"
+      ],
+      "commercialIndex": 9,
+      "educationalValue": 2,
+      "contentType": "смешанный",
+      "targetAudience": "люди, интересующиеся бинарными опционами и автоматизированной торговлей на PocketOption",
+      "warnings": [
+        "Большая часть контента – рекламные посты и ссылки‑партнёры",
+        "Отсутствие независимых аналитических материалов",
+        "Риск финансовых потерь при использовании непроверенных стратегий",
+        "Возможные схемы аффилированного маркетинга и мошенничества"
+      ],
+      "recommendation": "Не рекомендуется подписываться"
+    },
+    "analyzedAt": "2025-09-17T13:03:38.532Z"
+  },
+  {
+    "id": "1367130553",
+    "title": "Торговые стратегии/советник SniperSp",
+    "username": "trade_fm_FxTrade",
+    "participantsCount": 10456,
+    "description": "",
+    "type": "channel",
+    "category": "общее",
+    "foundBy": "торговые стратегии",
+    "timestamp": "2025-09-17T13:03:21.866Z",
+    "metrics": {
+      "subscribersCount": 10456,
+      "type": "channel",
+      "hasUsername": true,
+      "avgPostsPerDay": 0.49532115639846036,
+      "avgViewsPerPost": 55,
+      "avgReactionsPerPost": 2,
+      "lastPostDate": "2025-09-17T10:50:49.000Z",
+      "postsAnalyzed": 50,
+      "avgPostLength": 393,
+      "mediaPercentage": 100,
+      "forwardPercentage": 12,
+      "collectedAt": "2025-09-17T13:03:21.875Z"
+    },
+    "aiAnalysis": {
+      "qualityScore": 2,
+      "verdict": "реклама/спам",
+      "categories": [
+        "форекс",
+        "торговые сигналы",
+        "продвижение советников",
+        "платные клубы"
+      ],
+      "commercialIndex": 9,
+      "educationalValue": 2,
+      "contentType": "промо‑контент (видеоролики, ссылки на внешние ресурсы)",
+      "targetAudience": "трейдеры и инвесторы, интересующиеся форекс‑советниками и платными клубами",
+      "warnings": [
+        "Низкая вовлечённость (средний охват 55 при 10 000 подписчиков)",
+        "Постоянные рекламные ссылки без самостоятельного аналитического контента",
+        "Отсутствие независимых проверок эффективности советников",
+        "Вероятный риск финансовых потерь при использовании рекламируемых продуктов"
+      ],
+      "recommendation": "Не рекомендуется подписываться"
+    },
+    "analyzedAt": "2025-09-17T13:03:30.366Z"
+  }
+]

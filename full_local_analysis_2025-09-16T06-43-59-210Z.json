@@ -1,0 +1,232 @@
+{
+  "channel_name": "Милитарист",
+  "channel_id": -1001111348665,
+  "messages_analyzed": 90,
+  "analysis_date": "2025-09-16T06:43:59.208Z",
+  "overall_score": 61,
+  "rating": "Хороший",
+  "sentiment_analysis": {
+    "sentiment_score": -31,
+    "orientation": "пророссийский",
+    "confidence": "высокая",
+    "pro_russian_mentions": 21,
+    "pro_western_mentions": 8,
+    "neutral_mentions": 13,
+    "detected_keywords": {
+      "pro_russian": [
+        {
+          "keyword": "россия",
+          "count": 1
+        },
+        {
+          "keyword": "путин",
+          "count": 2
+        },
+        {
+          "keyword": "рф",
+          "count": 9
+        },
+        {
+          "keyword": "российский",
+          "count": 4
+        },
+        {
+          "keyword": "донбасс",
+          "count": 5
+        }
+      ],
+      "pro_western": [
+        {
+          "keyword": "нато",
+          "count": 4
+        },
+        {
+          "keyword": "свобода",
+          "count": 1
+        },
+        {
+          "keyword": "агрессия",
+          "count": 1
+        },
+        {
+          "keyword": "война",
+          "count": 2
+        }
+      ],
+      "neutral": [
+        {
+          "keyword": "мир",
+          "count": 13
+        }
+      ]
+    },
+    "total_political_keywords": 42,
+    "analysis_method": "local_keyword_analysis"
+  },
+  "uniqueness_analysis": {
+    "uniqueness_score": 100,
+    "content_freshness": 49,
+    "detail_score": 91,
+    "topics_covered": 6,
+    "unique_topics": 6,
+    "channel_topics": {
+      "военная техника": 18,
+      "военные операции": 6,
+      "конфликты": 7,
+      "терроризм": 3,
+      "разведка": 4,
+      "оборона": 4
+    },
+    "avg_post_length": 454,
+    "posting_pattern": {
+      "consistency_score": 49,
+      "peak_hour": "0",
+      "avg_daily_posts": 30,
+      "hourly_distribution": {
+        "0": 11,
+        "1": 4,
+        "7": 8,
+        "8": 7,
+        "9": 8,
+        "10": 4,
+        "11": 4,
+        "12": 4,
+        "13": 5,
+        "14": 4,
+        "15": 2,
+        "16": 4,
+        "17": 1,
+        "18": 3,
+        "19": 3,
+        "20": 3,
+        "21": 2,
+        "22": 4,
+        "23": 9
+      },
+      "posting_frequency": 30
+    },
+    "analysis_method": "local_statistical_analysis"
+  },
+  "entities_analysis": {
+    "countries": [
+      {
+        "name": "сша",
+        "count": 15,
+        "frequency": 0.17
+      },
+      {
+        "name": "израиль",
+        "count": 6,
+        "frequency": 0.07
+      },
+      {
+        "name": "китай",
+        "count": 5,
+        "frequency": 0.06
+      },
+      {
+        "name": "польша",
+        "count": 3,
+        "frequency": 0.03
+      },
+      {
+        "name": "иран",
+        "count": 2,
+        "frequency": 0.02
+      },
+      {
+        "name": "россия",
+        "count": 1,
+        "frequency": 0.01
+      }
+    ],
+    "organizations": [
+      {
+        "name": "рф",
+        "count": 9,
+        "frequency": 0.1
+      },
+      {
+        "name": "всу",
+        "count": 5,
+        "frequency": 0.06
+      },
+      {
+        "name": "нато",
+        "count": 4,
+        "frequency": 0.04
+      },
+      {
+        "name": "цахал",
+        "count": 1,
+        "frequency": 0.01
+      },
+      {
+        "name": "цру",
+        "count": 1,
+        "frequency": 0.01
+      }
+    ],
+    "politicians": [
+      {
+        "name": "трамп",
+        "count": 10,
+        "frequency": 0.11
+      },
+      {
+        "name": "нетаньяху",
+        "count": 3,
+        "frequency": 0.03
+      },
+      {
+        "name": "путин",
+        "count": 2,
+        "frequency": 0.02
+      },
+      {
+        "name": "байден",
+        "count": 2,
+        "frequency": 0.02
+      }
+    ],
+    "topic_distribution": {
+      "военная техника": 18,
+      "военные операции": 6,
+      "конфликты": 7,
+      "терроризм": 3,
+      "разведка": 4,
+      "оборона": 4
+    },
+    "most_mentioned_country": "сша",
+    "most_mentioned_politician": "трамп",
+    "total_entities": 15,
+    "analysis_method": "local_dictionary_matching"
+  },
+  "posting_patterns": {
+    "consistency_score": 49,
+    "peak_hour": "0",
+    "avg_daily_posts": 30,
+    "hourly_distribution": {
+      "0": 11,
+      "1": 4,
+      "7": 8,
+      "8": 7,
+      "9": 8,
+      "10": 4,
+      "11": 4,
+      "12": 4,
+      "13": 5,
+      "14": 4,
+      "15": 2,
+      "16": 4,
+      "17": 1,
+      "18": 3,
+      "19": 3,
+      "20": 3,
+      "21": 2,
+      "22": 4,
+      "23": 9
+    },
+    "posting_frequency": 30
+  }
+}

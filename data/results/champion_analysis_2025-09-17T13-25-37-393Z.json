@@ -1,0 +1,80 @@
+{
+  "champion": {
+    "id": "1484175525",
+    "title": "Точка входа",
+    "username": "bbe_jobs",
+    "participantsCount": 21931,
+    "description": "",
+    "type": "channel",
+    "category": "общее",
+    "foundBy": "точка входа",
+    "timestamp": "2025-09-17T13:09:32.779Z",
+    "metrics": {
+      "subscribersCount": 21931,
+      "type": "channel",
+      "hasUsername": true,
+      "avgPostsPerDay": 1.7122520765711615,
+      "avgViewsPerPost": 2680,
+      "avgReactionsPerPost": 14,
+      "lastPostDate": "2025-09-16T16:36:33.000Z",
+      "postsAnalyzed": 50,
+      "avgPostLength": 885,
+      "mediaPercentage": 100,
+      "forwardPercentage": 0,
+      "collectedAt": "2025-09-17T13:09:32.780Z"
+    },
+    "aiAnalysis": {
+      "qualityScore": 7.5,
+      "verdict": "полезный",
+      "categories": [
+        "вакансии",
+        "карьера",
+        "дизайн",
+        "финансы",
+        "советы по трудоустройству"
+      ],
+      "commercialIndex": 8,
+      "educationalValue": 6,
+      "contentType": "оригинальный",
+      "targetAudience": "дизайнеры, SMM‑специалисты, креативные профессионалы и соискатели работы в сфере дизайна и маркетинга",
+      "warnings": [],
+      "recommendation": "рекомендовано подписаться, если интересуют вакансии и карьерные советы в креативных индустриях"
+    },
+    "analyzedAt": "2025-09-17T13:09:40.751Z",
+    "foundByKeywords": [
+      "точка входа"
+    ],
+    "totalScore": 0
+  },
+  "deepMetrics": {
+    "subscribersCount": 21931,
+    "type": "channel",
+    "hasUsername": true,
+    "avgPostsPerDay": 1.7122520765711615,
+    "avgViewsPerPost": 2680,
+    "avgReactionsPerPost": 14,
+    "lastPostDate": "2025-09-16T16:36:33.000Z",
+    "postsAnalyzed": 50,
+    "avgPostLength": 885,
+    "mediaPercentage": 100,
+    "forwardPercentage": 0,
+    "collectedAt": "2025-09-17T13:09:32.780Z"
+  },
+  "analysis": {
+    "qualityScore": 7.5,
+    "verdict": "полезный",
+    "categories": [
+      "вакансии",
+      "карьера",
+      "дизайн",
+      "финансы",
+      "советы по трудоустройству"
+    ],
+    "commercialIndex": 8,
+    "educationalValue": 6,
+    "contentType": "оригинальный",
+    "targetAudience": "дизайнеры, SMM‑специалисты, креативные профессионалы и соискатели работы в сфере дизайна и маркетинга",
+    "warnings": [],
+    "recommendation": "рекомендовано подписаться, если интересуют вакансии и карьерные советы в креативных индустриях"
+  }
+}

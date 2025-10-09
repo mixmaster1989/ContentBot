@@ -1,0 +1,86 @@
+require('dotenv').config();
+const cron = require('node-cron');
+const { CryptoRadioDJEnhanced } = require('./crypto-radio-dj-enhanced');
+
+class CryptoRadioSchedulerEnhanced {
+  constructor() {
+    this.dj = new CryptoRadioDJEnhanced();
+    this.isRunning = false;
+  }
+
+  async init() {
+    await this.dj.init();
+    console.log('✅ Крипторадио диджей инициализирован');
+  }
+
+  startScheduler() {
+    // Запуск каждые 3 часа
+    cron.schedule('0 */3 * * *', async () => {
+      if (this.isRunning) {
+        console.log('⏰ Пропускаю запуск - предыдущий еще выполняется');
+        return;
+      }
+
+      this.isRunning = true;
+      console.log('🎧 Запускаю создание подкаста...');
+      
+      try {
+        await this.dj.createPodcast();
+        console.log('✅ Подкаст создан и отправлен успешно');
+      } catch (error) {
+        console.error('❌ Ошибка создания подкаста:', error.message);
+      } finally {
+        this.isRunning = false;
+      }
+    });
+
+    console.log('⏰ Планировщик запущен - подкасты будут создаваться каждые 3 часа');
+  }
+
+  async createPodcastNow() {
+    if (this.isRunning) {
+      console.log('⏰ Дождитесь завершения текущего процесса');
+      return;
+    }
+
+    this.isRunning = true;
+    console.log('🎧 Создаю подкаст прямо сейчас...');
+    
+    try {
+      await this.dj.createPodcast();
+      console.log('✅ Подкаст создан и отправлен успешно');
+    } catch (error) {
+      console.error('❌ Ошибка создания подкаста:', error.message);
+    } finally {
+      this.isRunning = false;
+    }
+  }
+
+  async stop() {
+    await this.dj.stop();
+    console.log('✅ Крипторадио диджей остановлен');
+  }
+}
+
+// Запуск планировщика
+if (require.main === module) {
+  const scheduler = new CryptoRadioSchedulerEnhanced();
+  
+  scheduler.init().then(() => {
+    scheduler.startScheduler();
+    
+    // Создать подкаст сразу при запуске
+    setTimeout(() => {
+      scheduler.createPodcastNow();
+    }, 5000);
+    
+    // Обработка сигналов завершения
+    process.on('SIGINT', async () => {
+      console.log('\n🛑 Получен сигнал завершения...');
+      await scheduler.stop();
+      process.exit(0);
+    });
+  });
+}
+
+module.exports = { CryptoRadioSchedulerEnhanced };

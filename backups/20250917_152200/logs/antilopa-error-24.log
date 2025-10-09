@@ -1,0 +1,459 @@
+2025-09-16T11:21:22: ❌ Ошибка отправки сообщения в группу: RPCError: 400: CHANNEL_INVALID (caused by messages.SendMessage)
+    at RPCMessageToError (/home/user1/telegram_parser/node_modules/telegram/errors/index.js:28:12)
+    at MTProtoSender._handleRPCResult (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:546:58)
+    at MTProtoSender._processMessage (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:476:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MTProtoSender._recvLoop (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:424:17) {
+  code: 400,
+  errorMessage: 'CHANNEL_INVALID'
+}
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _processUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:103:5)
+    at TelegramClient._handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:89:9)
+    at MTProtoSender._handleUpdate (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:598:18)
+    at MTProtoSender._processMessage (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:476:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MTProtoSender._recvLoop (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:424:17)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _processUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:103:5)
+    at TelegramClient._handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:85:13)
+    at MTProtoSender._handleUpdate (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:598:18)
+    at MTProtoSender._processMessage (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:476:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MTProtoSender._recvLoop (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:424:17)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _processUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:103:5)
+    at TelegramClient._handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:89:9)
+    at MTProtoSender._handleUpdate (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:598:18)
+    at MTProtoSender._processMessage (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:476:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MTProtoSender._recvLoop (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:424:17)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _processUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:103:5)
+    at TelegramClient._handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:89:9)
+    at MTProtoSender._handleUpdate (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:598:18)
+    at MTProtoSender._processMessage (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:476:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MTProtoSender._recvLoop (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:424:17)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _processUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:103:5)
+    at TelegramClient._handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:89:9)
+    at MTProtoSender._handleUpdate (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:598:18)
+    at MTProtoSender._processMessage (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:476:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MTProtoSender._recvLoop (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:424:17)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _processUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:103:5)
+    at TelegramClient._handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:89:9)
+    at MTProtoSender._handleUpdate (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:598:18)
+    at MTProtoSender._processMessage (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:476:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MTProtoSender._recvLoop (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:424:17)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: builder.resolve is not a function
+    at _dispatchUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:113:27)
+    at _handleUpdate (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:68:13)
+    at _updateLoop (/home/user1/telegram_parser/node_modules/telegram/client/updates.js:195:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-09-16T11:31:03: ❌ Ошибка отправки сообщения в группу: RPCError: 400: CHANNEL_INVALID (caused by messages.SendMessage)
+    at RPCMessageToError (/home/user1/telegram_parser/node_modules/telegram/errors/index.js:28:12)
+    at MTProtoSender._handleRPCResult (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:546:58)
+    at MTProtoSender._processMessage (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:476:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MTProtoSender._recvLoop (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:424:17) {
+  code: 400,
+  errorMessage: 'CHANNEL_INVALID'
+}
+2025-09-16T11:31:42: ❌ Ошибка отправки сообщения в группу: RPCError: 400: CHANNEL_INVALID (caused by messages.SendMessage)
+    at RPCMessageToError (/home/user1/telegram_parser/node_modules/telegram/errors/index.js:28:12)
+    at MTProtoSender._handleRPCResult (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:546:58)
+    at MTProtoSender._processMessage (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:476:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MTProtoSender._recvLoop (/home/user1/telegram_parser/node_modules/telegram/network/MTProtoSender.js:424:17) {
+  code: 400,
+  errorMessage: 'CHANNEL_INVALID'
+}
