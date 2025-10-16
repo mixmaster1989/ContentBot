@@ -12,7 +12,7 @@ ContentBot использует переменные окружения для �
 
 ### Telegram Bot API
 ```env
-BOT_TOKEN=8312811183:AAEIHiM-KbdLNylg_tsqUPfn2h41yL7DH60
+BOT_TOKEN=your_bot_token_here
 ```
 - **Назначение**: Токен основного Telegram бота
 - **Получение**: @BotFather в Telegram
@@ -20,8 +20,8 @@ BOT_TOKEN=8312811183:AAEIHiM-KbdLNylg_tsqUPfn2h41yL7DH60
 
 ### Telegram MTProto API
 ```env
-TG_API_ID=24120142
-TG_API_HASH=5792c2ada7d1f4d1d3f91938a5caa7a7
+TG_API_ID=your_api_id_here
+TG_API_HASH=your_api_hash_here
 ```
 - **Назначение**: API ключи для MTProto клиента
 - **Получение**: https://my.telegram.org/apps
@@ -39,7 +39,7 @@ SESSION_FILE=/root/tgparser/.session.txt
 
 ### Основной ключ (обязательный)
 ```env
-OPENROUTER_API_KEY_PAID=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
+OPENROUTER_API_KEY_PAID=your_openrouter_api_key_here
 ```
 - **Назначение**: Платный ключ OpenRouter для стабильной работы
 - **Получение**: https://openrouter.ai/keys
@@ -48,8 +48,8 @@ OPENROUTER_API_KEY_PAID=sk-or-v1-cb503f6dee238b4e54ba134a41cc30c4b7ee7c1531e181d
 
 ### Дополнительные ключи (неактивные)
 ```env
-OPENROUTER_API_KEY1=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
-OPENROUTER_API_KEY2=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
+OPENROUTER_API_KEY1=your_openrouter_api_key_here
+OPENROUTER_API_KEY2=your_openrouter_api_key_here
 # ... до OPENROUTER_API_KEY13
 ```
 - **Назначение**: Резервные ключи (отключены)
@@ -87,9 +87,9 @@ module.exports = {
     cwd: '/root/contentbot',
     env: {
       NODE_ENV: 'production',
-      BOT_TOKEN: '8312811183:AAEIHiM-KbdLNylg_tsqUPfn2h41yL7DH60',
-      TG_API_ID: '24120142',
-      TG_API_HASH: '5792c2ada7d1f4d1d3f91938a5caa7a7',
+      BOT_TOKEN: 'your_bot_token_here',
+      TG_API_ID: 'your_api_id_here',
+      TG_API_HASH: 'your_api_hash_here',
       SESSION_FILE: '/root/tgparser/.session.txt'
     }
   }]
@@ -117,19 +117,19 @@ pm2 show contentbot
 ### Содержимое файла
 ```env
 # Telegram Bot API
-BOT_TOKEN=8312811183:AAEIHiM-KbdLNylg_tsqUPfn2h41yL7DH60
+BOT_TOKEN=your_bot_token_here
 
 # Telegram MTProto API
-TG_API_ID=24120142
-TG_API_HASH=5792c2ada7d1f4d1d3f91938a5caa7a7
+TG_API_ID=your_api_id_here
+TG_API_HASH=your_api_hash_here
 SESSION_FILE=/root/tgparser/.session.txt
 
 # OpenRouter API
-OPENROUTER_API_KEY_PAID=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
+OPENROUTER_API_KEY_PAID=your_openrouter_api_key_here
 
 # Дополнительные ключи (неактивные)
-OPENROUTER_API_KEY1=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
-OPENROUTER_API_KEY2=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
+OPENROUTER_API_KEY1=your_openrouter_api_key_here
+OPENROUTER_API_KEY2=your_openrouter_api_key_here
 # ... до OPENROUTER_API_KEY13
 
 # Монетизация
@@ -245,3 +245,4 @@ pm2 restart contentbot --update-env
 **Конфигурация ContentBot** - безопасное управление переменными окружения! 🔐
 
 *Документ обновляется при изменении конфигурации системы.*
+

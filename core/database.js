@@ -237,6 +237,13 @@ class Database {
     );
   }
 
+  async updateChannelPostsToday(channelId, newCount) {
+    return await this.runQuery(
+      `UPDATE channels SET posts_today = ? WHERE id = ?`,
+      [newCount, channelId]
+    );
+  }
+
   // ПОСТЫ
   async savePost(channelId, content, originalContent = null, style = null) {
     return await this.runQuery(

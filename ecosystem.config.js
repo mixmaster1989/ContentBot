@@ -14,20 +14,20 @@ module.exports = {
     time: true,
     env: {
       NODE_ENV: 'production',
-      BOT_TOKEN: '8312811183:AAEIHiM-KbdLNylg_tsqUPfn2h41yL7DH60',
+      BOT_TOKEN: 'your_bot_token_here',
       TELEGRAM_BOT_TOKEN: 'stub_token_for_dev',
       ADMIN_BOT_TOKEN: 'stub_admin_token_for_dev',
-      TG_API_ID: '24120142',
-      TG_API_HASH: '5792c2ada7d1f4d1d3f91938a5caa7a7',
+      TG_API_ID: 'your_api_id_here',
+      TG_API_HASH: 'your_api_hash_here',
       SESSION_FILE: '/root/tgparser/.session.txt'
     },
     env_production: {
       NODE_ENV: 'production',
-      BOT_TOKEN: '8312811183:AAEIHiM-KbdLNylg_tsqUPfn2h41yL7DH60',
+      BOT_TOKEN: 'your_bot_token_here',
       TELEGRAM_BOT_TOKEN: 'stub_token_for_dev',
       ADMIN_BOT_TOKEN: 'stub_admin_token_for_dev',
-      TG_API_ID: '24120142',
-      TG_API_HASH: '5792c2ada7d1f4d1d3f91938a5caa7a7',
+      TG_API_ID: 'your_api_id_here',
+      TG_API_HASH: 'your_api_hash_here',
       SESSION_FILE: '/root/tgparser/.session.txt'
     }
   }]

@@ -216,3 +216,4 @@ main().catch((e) => {
   console.error('ОШИБКА ПОСТРОЕНИЯ КАТАЛОГА:', e?.message || e); 
   process.exit(1); 
 });
+

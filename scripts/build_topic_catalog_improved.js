@@ -293,3 +293,4 @@ main().catch((e) => {
   console.error('ОШИБКА ПОСТРОЕНИЯ УЛУЧШЕННОГО КАТАЛОГА:', e?.message || e); 
   process.exit(1); 
 });
+

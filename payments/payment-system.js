@@ -3,8 +3,8 @@ const crypto = require('crypto');
 const { Database } = require('../core/database');
 
 class PaymentSystem {
-  constructor() {
-    this.db = new Database();
+  constructor(database = null) {
+    this.db = database; // Используем переданную БД или null
     this.yoomoneyToken = process.env.YOOMONEY_TOKEN;
     this.cryptoWallet = process.env.CRYPTO_WALLET;
     
@@ -22,11 +22,15 @@ class PaymentSystem {
       const paymentId = this.generatePaymentId();
       const label = `contentbot_${userId}_${Date.now()}`;
 
-      // Сохраняем платеж в БД
-      await this.db.createPayment(userId, amount, 'yoomoney', serviceType, paymentId);
+      // Сохраняем платеж в БД (если БД доступна)
+      if (this.db) {
+        await this.db.createPayment(userId, amount, 'yoomoney', serviceType, paymentId);
+      } else {
+        console.log(`💰 ЗАГЛУШКА: Платеж ${paymentId} на сумму ${amount}₽ (БД недоступна)`);
+      }
 
-      // Формируем ссылку для оплаты
-      const paymentUrl = `https://yoomoney.ru/quickpay/shop-widget?targets=ContentBot%20${serviceType}&default-sum=${amount}&button-text=11&any-card-payment-type=on&button-size=m&button-color=orange&successURL=https://t.me/your_contentbot&label=${label}`;
+      // ЗАГЛУШКА: Формируем ссылку на заглушку оплаты
+      const paymentUrl = `https://t.me/mixmaster1989?text=Оплата%20ContentBot%20${amount}₽%20(${paymentId})`;
 
       console.log(`💰 Создан платеж ЮMoney: ${paymentId} на сумму ${amount}₽`);
       
@@ -71,6 +75,10 @@ class PaymentSystem {
   // Проверка платежей ЮMoney через webhook/API
   async checkYooMoneyPayments() {
     try {
+      // ЗАГЛУШКА: Пропускаем проверку платежей
+      console.log('💳 [ЗАГЛУШКА] Проверка платежей ЮMoney пропущена');
+      return;
+
       // Получаем неподтвержденные платежи
       const pendingPayments = await this.db.getPendingPayments();
       const yoomoneyPayments = pendingPayments.filter(p => p.payment_method === 'yoomoney');
@@ -318,6 +326,10 @@ class PaymentSystem {
   // Проверка истекших подписок
   async checkExpiredSubscriptions() {
     try {
+      // ЗАГЛУШКА: Пропускаем проверку истекших подписок
+      console.log('⏰ [ЗАГЛУШКА] Проверка истекших подписок пропущена');
+      return;
+
       const now = Math.floor(Date.now() / 1000);
       
       await this.db.runQuery(`

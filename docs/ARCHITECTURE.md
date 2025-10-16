@@ -135,13 +135,13 @@ CREATE TABLE users (
 ### Обязательные
 ```env
 # Telegram
-BOT_TOKEN=8312811183:AAEIHiM-KbdLNylg_tsqUPfn2h41yL7DH60
-TG_API_ID=24120142
-TG_API_HASH=5792c2ada7d1f4d1d3f91938a5caa7a7
+BOT_TOKEN=your_bot_token_here
+TG_API_ID=your_api_id_here
+TG_API_HASH=your_api_hash_here
 SESSION_FILE=/root/tgparser/.session.txt
 
 # OpenRouter
-OPENROUTER_API_KEY_PAID=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
+OPENROUTER_API_KEY_PAID=your_openrouter_api_key_here
 
 # ContentBot
 MONTHLY_PRICE=3000
@@ -153,8 +153,8 @@ OWNER_ID=123456789
 ### Дополнительные
 ```env
 # Дополнительные OpenRouter ключи
-OPENROUTER_API_KEY1=sk-or-v1-...
-OPENROUTER_API_KEY2=sk-or-v1-...
+OPENROUTER_API_KEY1=your_openrouter_api_key_here
+OPENROUTER_API_KEY2=your_openrouter_api_key_here
 # ... до OPENROUTER_API_KEY13
 ```
 
@@ -170,9 +170,9 @@ module.exports = {
     cwd: '/root/contentbot',
     env: {
       NODE_ENV: 'production',
-      BOT_TOKEN: '8312811183:AAEIHiM-KbdLNylg_tsqUPfn2h41yL7DH60',
-      TG_API_ID: '24120142',
-      TG_API_HASH: '5792c2ada7d1f4d1d3f91938a5caa7a7',
+      BOT_TOKEN: 'your_bot_token_here',
+      TG_API_ID: 'your_api_id_here',
+      TG_API_HASH: 'your_api_hash_here',
       SESSION_FILE: '/root/tgparser/.session.txt'
     }
   }]
