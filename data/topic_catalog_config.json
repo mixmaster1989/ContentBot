@@ -1,0 +1,280 @@
+{
+  "topics": [
+    {
+      "id": "investments-trading",
+      "name": "Инвестиции, трейдинг, финансы",
+      "category": "Бизнес, финансы, карьера",
+      "searchQuery": "инвестиции трейдинг финансы"
+    },
+    {
+      "id": "business-startups",
+      "name": "Бизнес-идеи, стартапы",
+      "category": "Бизнес, финансы, карьера",
+      "searchQuery": "бизнес стартапы предпринимательство"
+    },
+    {
+      "id": "personal-efficiency",
+      "name": "Личная эффективность, мотивация",
+      "category": "Бизнес, финансы, карьера",
+      "searchQuery": "мотивация эффективность продуктивность"
+    },
+    {
+      "id": "retail-ecommerce",
+      "name": "Ритейл/маркетплейсы, e-commerce",
+      "category": "Бизнес, финансы, карьера",
+      "searchQuery": "ecommerce маркетплейсы ритейл"
+    },
+    {
+      "id": "career-hr",
+      "name": "Карьерный рост, HR, профессии будущего",
+      "category": "Бизнес, финансы, карьера",
+      "searchQuery": "карьера HR профессии будущего"
+    },
+    {
+      "id": "tech-gadgets",
+      "name": "Технологии, гаджеты, инновации",
+      "category": "Технологии, IT, наука",
+      "searchQuery": "технологии гаджеты инновации"
+    },
+    {
+      "id": "ai-neural",
+      "name": "Искусственный интеллект, нейросети",
+      "category": "Технологии, IT, наука",
+      "searchQuery": "нейросети искусственный интеллект"
+    },
+    {
+      "id": "science-stem",
+      "name": "Наука, открытия, популяризация STEM",
+      "category": "Технологии, IT, наука",
+      "searchQuery": "наука открытия STEM"
+    },
+    {
+      "id": "crypto-defi",
+      "name": "Криптовалюты, DeFi, Web3",
+      "category": "Технологии, IT, наука",
+      "searchQuery": "криптовалюты DeFi Web3"
+    },
+    {
+      "id": "programming-security",
+      "name": "Программирование, кибербезопасность",
+      "category": "Технологии, IT, наука",
+      "searchQuery": "программирование кибербезопасность"
+    },
+    {
+      "id": "smm-digital",
+      "name": "SMM, digital-маркетинг",
+      "category": "Маркетинг, коммуникации",
+      "searchQuery": "SMM digital маркетинг"
+    },
+    {
+      "id": "copywriting-promotion",
+      "name": "Копирайтинг, продвижение каналов",
+      "category": "Маркетинг, коммуникации",
+      "searchQuery": "копирайтинг продвижение каналов"
+    },
+    {
+      "id": "branding-pr",
+      "name": "Брендинг, PR, реклама",
+      "category": "Маркетинг, коммуникации",
+      "searchQuery": "брендинг PR реклама"
+    },
+    {
+      "id": "personal-brand",
+      "name": "Личный бренд, экспертность",
+      "category": "Маркетинг, коммуникации",
+      "searchQuery": "личный бренд экспертность"
+    },
+    {
+      "id": "tourism-travel",
+      "name": "Туризм, лайфхаки для путешествий",
+      "category": "Путешествия, города",
+      "searchQuery": "туризм путешествия лайфхаки"
+    },
+    {
+      "id": "city-guides",
+      "name": "Городские гиды и культовые места",
+      "category": "Путешествия, города",
+      "searchQuery": "городские гиды культовые места"
+    },
+    {
+      "id": "migration-immigration",
+      "name": "Миграция, направления иммиграции",
+      "category": "Путешествия, города",
+      "searchQuery": "миграция иммиграция"
+    },
+    {
+      "id": "psychology-relationships",
+      "name": "Психология, отношения",
+      "category": "Психология, саморазвитие",
+      "searchQuery": "психология отношения"
+    },
+    {
+      "id": "female-psychology",
+      "name": "Женская психология, саморазвитие",
+      "category": "Психология, саморазвитие",
+      "searchQuery": "женская психология саморазвитие"
+    },
+    {
+      "id": "mental-health",
+      "name": "Ментальное здоровье, mindfulness",
+      "category": "Психология, саморазвитие",
+      "searchQuery": "ментальное здоровье mindfulness"
+    },
+    {
+      "id": "edtech-online",
+      "name": "EdTech, онлайн-образование",
+      "category": "Образование, развитие",
+      "searchQuery": "EdTech онлайн образование"
+    },
+    {
+      "id": "languages-skills",
+      "name": "Языки, обучение soft/hard skills",
+      "category": "Образование, развитие",
+      "searchQuery": "языки soft skills hard skills"
+    },
+    {
+      "id": "study-hacks",
+      "name": "Лайфхаки для учёбы, work&study",
+      "category": "Образование, развитие",
+      "searchQuery": "лайфхаки учеба work study"
+    },
+    {
+      "id": "news-digests",
+      "name": "Новостные дайджесты",
+      "category": "Новости, аналитика",
+      "searchQuery": "новости дайджесты"
+    },
+    {
+      "id": "infobusiness-media",
+      "name": "Инфобизнес, СМИ, обзоры рынков",
+      "category": "Новости, аналитика",
+      "searchQuery": "инфобизнес СМИ обзоры рынков"
+    },
+    {
+      "id": "economy-analytics",
+      "name": "Экономика, аналитика",
+      "category": "Новости, аналитика",
+      "searchQuery": "экономика аналитика"
+    },
+    {
+      "id": "health-fitness",
+      "name": "ЗОЖ, фитнес, нутрициология",
+      "category": "Здоровье, спорт",
+      "searchQuery": "ЗОЖ фитнес нутрициология"
+    },
+    {
+      "id": "sports-achievements",
+      "name": "Спортивные советы, достижения",
+      "category": "Здоровье, спорт",
+      "searchQuery": "спорт достижения советы"
+    },
+    {
+      "id": "medical-facts",
+      "name": "Медицинские секции/факты/советы",
+      "category": "Здоровье, спорт",
+      "searchQuery": "медицина факты советы"
+    },
+    {
+      "id": "literature-books",
+      "name": "Литература, книги, подборки",
+      "category": "Культура, арт, творчество",
+      "searchQuery": "литература книги подборки"
+    },
+    {
+      "id": "music-movies",
+      "name": "Музыка, кино, сериал-дайджесты",
+      "category": "Культура, арт, творчество",
+      "searchQuery": "музыка кино сериалы"
+    },
+    {
+      "id": "art-contemporary",
+      "name": "Арт, современное искусство",
+      "category": "Культура, арт, творчество",
+      "searchQuery": "арт современное искусство"
+    },
+    {
+      "id": "fashion-style",
+      "name": "Мода, стиль, дизайн",
+      "category": "Культура, арт, творчество",
+      "searchQuery": "мода стиль дизайн"
+    },
+    {
+      "id": "memes-humor",
+      "name": "Мемы, шутки, креатив, B2C-веселье",
+      "category": "Развлечения, мемы, юмор",
+      "searchQuery": "мемы шутки креатив"
+    },
+    {
+      "id": "games-quizzes",
+      "name": "Игры, квизы, челленджи, розыгрыши",
+      "category": "Развлечения, мемы, юмор",
+      "searchQuery": "игры квизы челленджи"
+    },
+    {
+      "id": "empathy-storytelling",
+      "name": "Эмпатия, реалистичный сторителлинг",
+      "category": "Социальные темы",
+      "searchQuery": "эмпатия сторителлинг"
+    },
+    {
+      "id": "volunteering-charity",
+      "name": "Волонтёрство, благотворительность",
+      "category": "Социальные темы",
+      "searchQuery": "волонтерство благотворительность"
+    },
+    {
+      "id": "patriotism-trends",
+      "name": "Патриотизм, местные тренды",
+      "category": "Социальные темы",
+      "searchQuery": "патриотизм местные тренды"
+    },
+    {
+      "id": "hobbies-cooking",
+      "name": "Хобби, кулинария, DIY, рукоделие",
+      "category": "Крафтовые ниши",
+      "searchQuery": "хобби кулинария DIY рукоделие"
+    },
+    {
+      "id": "auto-travel-outdoor",
+      "name": "Авто-мото, путешествия, outdoor",
+      "category": "Крафтовые ниши",
+      "searchQuery": "авто мото outdoor"
+    },
+    {
+      "id": "life-hacks",
+      "name": "Лайфхаки реальной жизни",
+      "category": "Крафтовые ниши",
+      "searchQuery": "лайфхаки реальная жизнь"
+    },
+    {
+      "id": "law-industry",
+      "name": "Юриспруденция, аналитика отраслей",
+      "category": "Узкоспециализированные темы",
+      "searchQuery": "юриспруденция аналитика отраслей"
+    },
+    {
+      "id": "real-estate-construction",
+      "name": "Недвижимость, ремонт, стройка",
+      "category": "Узкоспециализированные темы",
+      "searchQuery": "недвижимость ремонт стройка"
+    },
+    {
+      "id": "foodtech-restaurant",
+      "name": "Foodtech, ресторанный бизнес",
+      "category": "Узкоспециализированные темы",
+      "searchQuery": "foodtech ресторанный бизнес"
+    },
+    {
+      "id": "medicine-pharma",
+      "name": "Медицина, фармацевтика",
+      "category": "Узкоспециализированные темы",
+      "searchQuery": "медицина фармацевтика"
+    },
+    {
+      "id": "beauty-cosmetology",
+      "name": "Beauty, косметология",
+      "category": "Узкоспециализированные темы",
+      "searchQuery": "beauty косметология"
+    }
+  ]
+}

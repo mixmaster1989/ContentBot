@@ -188,6 +188,8 @@ class ContentBot {
 
   async start() {
     await this.db.init();
+    await this.parser.init();
+    await this.channelManager.init(this.parser.client);
     await this.bot.start();
     console.log('✅ ContentBot готов к работе!');
   }

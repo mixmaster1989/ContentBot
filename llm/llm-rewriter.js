@@ -1,11 +1,15 @@
-const { OpenAI } = require('openai');
-const axios = require('axios');
+const { OpenRouterManager } = require('../telegram_parser/dist/ai/openrouter-manager');
 
 class LLMRewriter {
   constructor() {
-    this.openai = new OpenAI({
-      apiKey: process.env.OPENAI_API_KEY
-    });
+    this.ai = OpenRouterManager.get();
+    this.modelRouting = {
+      primary: 'qwen/qwen-2.5-72b-instruct',
+      style: 'meta-llama/llama-3.3-70b-instruct',
+      coder: 'qwen/qwen-2.5-coder-32b-instruct',
+      deeprewrite: 'deepseek/deepseek-v3.1',
+      fast: 'mistralai/mistral-nemo',
+    };
     
     // Стили написания для разных тематик
     this.writingStyles = {
@@ -42,6 +46,23 @@ class LLMRewriter {
     };
   }
 
+  selectModel(task, content = '', style = 'универсальный') {
+    if (task === 'rewrite') {
+      if (content && content.length > 1200) return this.modelRouting.deeprewrite;
+      if (style === 'технологии') return this.modelRouting.coder;
+      return this.modelRouting.primary;
+    }
+    if (task === 'generate') {
+      // Креатив по умолчанию, техники/бизнес — точность
+      if (style === 'технологии' || style === 'бизнес') return this.modelRouting.primary;
+      return this.modelRouting.style;
+    }
+    if (task === 'improve') {
+      return this.modelRouting.primary;
+    }
+    return this.modelRouting.fast;
+  }
+
   // Основная функция переписывания контента
   async rewriteContent(content, style = 'универсальный') {
     try {
@@ -49,24 +70,21 @@ class LLMRewriter {
       
       const prompt = this.buildPrompt(content.text, styleConfig, style);
       
-      const response = await this.openai.chat.completions.create({
-        model: "gpt-4o-mini",
-        messages: [
-          {
-            role: "system",
-            content: `Ты профессиональный копирайтер для Telegram каналов. 
-            Переписывай контент, делая его уникальным, вовлекающим и ценным.
-            ОБЯЗАТЕЛЬНО соблюдай стиль и тон, указанный в промпте.
-            НЕ копируй оригинальный текст, создавай новый на основе идеи.`
-          },
-          {
-            role: "user", 
-            content: prompt
-          }
-        ],
-        max_tokens: 1000,
-        temperature: 0.8
-      });
+      const model = this.selectModel('rewrite', content.text, style);
+      const response = await this.ai.makeRequest([
+        {
+          role: "system",
+          content: `Ты профессиональный копирайтер для Telegram каналов. 
+          Переписывай контент, делая его уникальным, вовлекающим и ценным.
+          ОБЯЗАТЕЛЬНО соблюдай стиль и тон, указанный в промпте.
+          НЕ копируй оригинальный текст, создавай новый на основе идеи.
+          ОТВЕТ ДОЛЖЕН БЫТЬ КОРОТКИМ - максимум 2-3 предложения!`
+        },
+        {
+          role: "user", 
+          content: prompt
+        }
+      ], model, { max_tokens: 220, temperature: 0.7 });
 
       let rewrittenText = response.choices[0].message.content.trim();
       
@@ -207,29 +225,24 @@ class LLMRewriter {
 КЛЮЧЕВЫЕ СЛОВА: ${styleConfig.keywords.join(', ')}
 
 ТРЕБОВАНИЯ:
-- Длина: 600-1200 символов
+- Длина: 100-200 символов (КОРОТКИЙ ПОСТ!)
 - Полезная информация или инсайт
 - Вовлекающий контент
 - Современный язык
-- Конкретные примеры
 
 ПОСТ:`;
 
-      const response = await this.openai.chat.completions.create({
-        model: "gpt-4o-mini",
-        messages: [
-          {
-            role: "system",
-            content: "Ты профессиональный копирайтер для Telegram каналов. Создавай вовлекающий и полезный контент."
-          },
-          {
-            role: "user",
-            content: prompt
-          }
-        ],
-        max_tokens: 1000,
-        temperature: 0.9
-      });
+      const model = this.selectModel('generate', '', style);
+      const response = await this.ai.makeRequest([
+        {
+          role: "system",
+          content: "Ты профессиональный копирайтер для Telegram каналов. Создавай вовлекающий и полезный контент. ОТВЕТ ДОЛЖЕН БЫТЬ КОРОТКИМ - максимум 2-3 предложения!"
+        },
+        {
+          role: "user",
+          content: prompt
+        }
+      ], model, { max_tokens: 220, temperature: 0.7 });
 
       let generatedText = response.choices[0].message.content.trim();
       generatedText = this.enhanceWithEmojis(generatedText, styleConfig);
@@ -266,21 +279,17 @@ class LLMRewriter {
 
 УЛУЧШЕННАЯ ВЕРСИЯ:`;
 
-      const response = await this.openai.chat.completions.create({
-        model: "gpt-4o-mini",
-        messages: [
-          {
-            role: "system",
-            content: "Ты эксперт по Telegram контенту. Улучшай посты для максимального вовлечения."
-          },
-          {
-            role: "user",
-            content: prompt
-          }
-        ],
-        max_tokens: 1000,
-        temperature: 0.7
-      });
+      const model = this.selectModel('improve');
+      const response = await this.ai.makeRequest([
+        {
+          role: "system",
+          content: "Ты эксперт по Telegram контенту. Улучшай посты для максимального вовлечения."
+        },
+        {
+          role: "user",
+          content: prompt
+        }
+      ], model, { max_tokens: 220, temperature: 0.6 });
 
       return {
         improved: response.choices[0].message.content.trim(),
