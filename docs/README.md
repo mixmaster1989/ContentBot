@@ -298,13 +298,12 @@ MIT License - свободное использование и модифика�
 
 ## 📚 Дополнительная документация
 
-- **[docs/ARCHITECTURE.md](./docs/ARCHITECTURE.md)** - подробная архитектура системы
-- **[docs/DEVELOPMENT_STATUS.md](./docs/DEVELOPMENT_STATUS.md)** - текущее состояние проекта
+- **[ARCHITECTURE.md](./ARCHITECTURE.md)** - подробная архитектура системы
+- **[DEVELOPMENT_STATUS.md](./DEVELOPMENT_STATUS.md)** - текущее состояние проекта
 - **[docs/LLM_MODEL_EVAL.md](./docs/LLM_MODEL_EVAL.md)** - оценка LLM-моделей
 - **[docs/TOPIC_CATALOG_IMPROVED.md](./docs/TOPIC_CATALOG_IMPROVED.md)** - каталог 46 тематик
 - **[docs/SCRIPTS_GUIDE.md](./docs/SCRIPTS_GUIDE.md)** - руководство по скриптам
 - **[docs/ROADMAP.md](./docs/ROADMAP.md)** - план развития проекта
-- **[docs/ENV_CONFIG.md](./docs/ENV_CONFIG.md)** - конфигурация переменных окружения
 
 ---
 
