@@ -1,3 +1,28 @@
 .env
 *.env
 .env.*
+
+# Sensitive files
+.env_from_parser
+*.txt
+!docs/*.md
+!README.md
+!ARCHITECTURE.md
+!DEVELOPMENT_STATUS.md
+
+# API keys and secrets
+*env*
+*secret*
+*token*
+*key*
+
+# Database files
+*.db
+*.sqlite
+
+# Session files
+*.session*
+
+# Logs
+logs/
+*.log
